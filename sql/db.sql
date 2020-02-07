@@ -102,7 +102,8 @@ INSERT INTO `leki` (`id`, `nazwa`, `producent`, `cena`, `waga`) VALUES
   (133,'Piramidon','Bayer',80000,100),
   (134,'Piramidon','Bayer',80000,100),
   (135,'Piramidon','Bayer',80000,100),
-  (136,'Piramidon','Bayer',80000,100);
+  (136,'Piramidon','Bayer',80000,100),
+  (137,'Piramidon','Bayer',80000,100);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
