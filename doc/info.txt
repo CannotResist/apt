@@ -1,0 +1,4 @@
+MySQL Server 8.0
+PHP C:\php742\
+
+
