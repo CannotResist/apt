@@ -21,6 +21,7 @@ Binding an IP Addresses and Ports:
 https://httpd.apache.org/docs/2.4/bind.html
 
 Polecenie Listen apteka.conf: 
+https://httpd.apache.org/docs/2.4/mod/mpm_common.html#listen
 
 Virtual hosts:
 https://httpd.apache.org/docs/2.4/vhosts/examples.html
