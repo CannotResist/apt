@@ -1,0 +1,196 @@
+body
+{
+	background-color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: pink;
+	margin: 0 !important;
+
+	
+}
+
+.wrapper
+{
+	width: 100%
+}
+
+.header
+{
+	width: 100% 
+	padding: 40px 0;
+}
+
+p.ten_akapit
+{
+	color:greenyellow;
+}
+
+
+
+
+
+.logo
+{
+	width: 100%;
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.nav
+{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #c9a2bf;
+	border-top: 1px solid  #c9a2bf;
+	height: 40px;
+	text-align:center;
+	border-bottom: 1px solid #c9a2bf;
+	margin: 0 !important;
+}
+
+.content
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	color: blue;
+}
+
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #292929;
+	
+}
+
+.socialdivs
+{
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+
+}
+
+.fb:hover
+
+{
+background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+
+}
+
+.yt:hover
+
+{
+background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+
+}
+
+.tw:hover
+
+{
+background-color: #3095D3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+
+}
+
+.gplus:hover
+
+{
+background-color: #800000;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index; 100;
+}
+
+ol {
+padding: 0;
+margin: 0;
+list-style-type: none;
+font-size: 18px;
+height: 35 px;
+line-height: 200%;
+text align: center;
+
+}
+	
+ol a
+{
+color: #ffffff;
+text-decoration: none;
+display: block;	
+}	
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+	
+}
+
+ol > li:hover
+{
+background-color: #751b1b;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+ 
+  background-image: url("tlo.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom 0; 
+  opacity: 0.6;
+
+
+}
+

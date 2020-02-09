@@ -13,4 +13,35 @@ Microsoft Azure:
 https://www.youtube.com/watch?v=tDuruX7XSac&t=3038s
 
 
+Apache Virtual Host
+https://httpd.apache.org/docs/2.4/vhosts/
+
+
+Binding an IP Addresses and Ports:
+https://httpd.apache.org/docs/2.4/bind.html
+
+Polecenie Listen apteka.conf: 
+
+Virtual hosts:
+https://httpd.apache.org/docs/2.4/vhosts/examples.html
+
+Sprawdzenie konfiguracji virtual hosts:
+https://httpd.apache.org/docs/2.4/vhosts/
+Polecenie: httpd.exe -t -D DUMP_VHOSTS
+
+Example:
+c:\Program Files (x86)\Zend\Apache24\bin>httpd.exe -t -D DUMP_VHOSTS
+VirtualHost configuration:
+192.168.8.101:80       mobiledrug.com (C:/Program Files (x86)/Zend/Apache24/conf/apteka.conf:5)
+127.0.0.1:10083        DESKTOP-21RI2D0 (C:/Program Files (x86)/Zend/Apache24/conf/zend.conf:54)
+*:10081                localhost (C:/Program Files (x86)/Zend/Apache24/conf/zend.conf:20)
+*:10082                localhost (C:/Program Files (x86)/Zend/Apache24/conf/zend.conf:34)
+*:80                   localhost (C:/Program Files (x86)/Zend/Apache24/conf/httpd.conf:549)
+
+
+
+
+
+
+
 

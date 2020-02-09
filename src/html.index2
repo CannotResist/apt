@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head bgcolor="">
+<meta charset="utf-8" />
+<title> Apteka internetowa </title>
+<meta name="robots" content="index follow"/>
+<meta name="author" content="Dominika Szczechura"/>
+<meta name="description" content="Interaktywna apteka internetowa "/>
+<meta name="keywords" content="Dla Pañstwa wygody oddajemy w pe³ni interaktywn¹ pierwsz¹ aptekê internetow¹"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="StyleSheet" HREF="style.css" TYPE="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+<head>
+</head>
+<body>
+LOGIN:
+    <input type="text" name="imie" input type="submit="Wyœlij"/>
+    <br>
+    HAS£O:
+    <input type="text" name="nazwisko" input type="submit="Wyœlij"/>
+    <form/>
+</body>
+</html>

@@ -1,0 +1,81 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head bgcolor="">
+<meta charset="utf-8" />
+<title> Apteka internetowa </title>
+<meta name="robots" content="index follow"/>
+<meta name="author" content=""/>
+<meta name="description" content="Interaktywna apteka internetowa "/>
+<meta name="keywords" content="Dla Państwa wygody oddajemy w pełni interaktywną pierwszą aptekę internetową"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="StyleSheet" HREF="css\style.css" TYPE="text/css" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+
+<body>
+	<div class="bg"><div>
+	
+	
+<div class="wrapper">
+<div class="header">
+  <div class="logo"> <img src="img\101961.png" style="float: left;" alt="Tu powinno być logo" align="left"/>Projekt apteki internetowej <span style="color: #800000"><b><i>mobile</span>drug.com</i></b>
+    <div style="clear:both;"></div>
+  </div>
+  <div class="nav">
+		<ol>
+			<li><a href="#">Antybiotyki</a></li>
+			<li><a href="#">Witaminy</a></li>
+			<li><a href="#">Suplementy diety</a></li>
+			<li><a href="#">Kosmetyki</a></li>
+			<li><a href="#">Promocje</a></li>
+		</ol>
+  
+  </div>
+  <div class="content"> <a href="mailto:dominika.sosza@gmail.com" align="justify">To jest mój adres mailowy - napisz do mnie</a>
+    <p class="ten_akapit" align="justify" title="To jest pierwszy akapit"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non purus non nibh dictum faucibus in sed elit. Fusce vel sagittis dui. Maecenas auctor arcu ligula, ut interdum ipsum euismod non. </p>
+    <p class="ten_akapit" align="justify" title="To jest drugi akapit">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu interdum augue, cursus tristique ante. Vestibulum sed lacus non libero dictum suscipit. </p>
+    <p align="justify" title="To jest trzeci akapit">Etiam vehicula odio eget erat pulvinar lacinia. Praesent nunc odio, vulputate sed metus a, pretium ultrices ex. Sed eget nisl semper, bibendum tellus eu, suscipit risus. </p>
+    Imię:
+    <input type="text" name="imie" input type="submit="Wyślij"/>
+    <br>
+    Nazwisko:
+    <input type="text" name="nazwisko" input type="submit="Wyślij"/>
+    <form/>
+    
+  </div>
+  </div>
+  <div class="socials"></div>
+  <div class="socialdivs">
+    <div class="fb"></div>
+    <div class="yt"></div>
+    <div class="tw"></div>
+    <div class="g+"></div>
+  </div>
+</div>
+<script src="jquery.js"></script>
+<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+</body>
+</html>
