@@ -12,6 +12,7 @@ Cloud:
 Microsoft Azure:
 https://www.youtube.com/watch?v=tDuruX7XSac&t=3038s
 
+Przeczytaæ:
 
 Apache Virtual Host
 https://httpd.apache.org/docs/2.4/vhosts/
