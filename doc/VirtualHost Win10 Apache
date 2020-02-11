@@ -31,8 +31,8 @@ Your hosts file should look like that:
 # localhost name resolution is handled within DNS itself.
 #    127.0.0.1       localhost
 #    ::1             localhost
-    127.0.0.1    mobiledrug.com
-  127.0.0.1 MySoft.com
+    127.0.0.1       mobiledrug.com
+    127.0.0.1       MySoft.com
 "
 
 The line that begins from "#" is a comment and the system will not read that.
