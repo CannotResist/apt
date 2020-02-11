@@ -103,4 +103,14 @@ The DocumentRoot should be your web application directory.
 C:\Program Files (x86)\Zend\Apache24\bin\httpd.exe -t -D DUMP_VHOSTS
 
 
+"
+:\Program Files (x86)\Zend\Apache24\bin>httpd.exe -t -D DUMP_VHOSTS
+
+If there is any misconfiguration or bug, apache will tel you in detailed information where the problem exists.
+
+8. For the final test, run a browser and type mysoft.com.
+
+
+
+
 
