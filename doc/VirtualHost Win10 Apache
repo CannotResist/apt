@@ -36,9 +36,12 @@ Your hosts file should look like that:
 "
 
 The line that begins from "#" is a comment and the system will not read that.
+Remember to revoke permissions to that file to not leave a backdoor in your system files. 
+
 
 2. Is there is a problem with saving that file, you have to change permission by adding 
-the rule "modify".
+the rule "modify". 
+Remember to revoke permissions to that file to not leave a backdoor in your system files. 
 
 3. Run ping command from windows command line:
 "WinKey + R" + "cmd" + Enter.
@@ -72,6 +75,7 @@ On the bottom of that file add:
 Include "conf/mysoftcom.conf"
 "
 Close httpd.conf.
+Again, remember to revoke permissions to edited files.
 
 5. In the directory C:\Program Files (x86)\Zend\Apache24\conf\
 create file mysoftcom.conf with:
